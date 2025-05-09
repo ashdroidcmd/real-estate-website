@@ -1,0 +1,108 @@
+/* Cinzel Font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+/* Source Sans */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1, a {
+    font-family: "Cinzel", serif;
+}
+
+h4,
+p{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.text-light-brown {
+    color: #AD8C8C;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+    max-width: 100%;
+}
+
+/* Hero */
+#hero-section {
+    background-image: url(/public/hero-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#hero-section h1{
+    font-size: 4rem;
+}
+#hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#hero-section > * {
+    position: relative;
+    z-index: 2; 
+}
+
+
+/* Profile */
+#profile-image {
+    height: 500px;
+    border-radius: 1000px;
+}
+@media only screen and (max-width: 600px) {
+    #profile-image {
+            height: 300px;
+            border-radius: 1000px;   }
+}
+/* Listing Search */
+#listing-bg {
+    background-image: url(/public/search-listing-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+#listing-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#listing-bg > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Contact Details */
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+    border-radius: 25px;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 25px;
+}
+
+#location-map {
+    height: 450px;
+    width: 600px;
+    border-radius: 25px;
+}
