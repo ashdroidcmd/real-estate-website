@@ -8,7 +8,7 @@ const Profile = () => {
 
                     <div className="row row-cols-1 row-cols-lg-2 align-items-center">
                         <div className="col d-flex justify-content-center my-3 px-3">
-                            <img id="profile-image" src="./profile.webp" className="img-fluid" alt="profile image" />
+                            <img id="profile-image" src="/real-estate-website/profile.webp" className="img-fluid" alt="profile image" />
                         </div>
 
                         <div className="col text-white text-start px-4">

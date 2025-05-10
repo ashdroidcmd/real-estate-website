@@ -34,7 +34,7 @@ const Features = () => {
                             </div>
 
                             <div className="col-md-6 order-md-1">
-                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features1.webp`} alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src="/real-estate-website/features1.webp" alt="" />
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ const Features = () => {
                                 </p>
                             </div>
                             <div className="col-md-6">
-                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features2.webp`} alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src="/real-estate-website/features2.webp" alt="" />
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ const Features = () => {
                             </div>
 
                             <div className="col-md-6 order-md-1">
-                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features3.webp`} alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src="/real-estate-website/features3.webp" alt="" />
                             </div>
                         </div>
                     </div>
