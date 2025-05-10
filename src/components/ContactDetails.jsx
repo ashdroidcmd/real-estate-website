@@ -5,8 +5,10 @@ const ContactDetails = () => {
         <>
             <section className="container py-5">
                 <h1 className="text-center pb-4 text-light-brown">Call or Visit</h1>
-
+                
                 <div className="row row-cols-1 row-cols-md-2 pt-3 pb-5">
+
+                    {/* Embedded Google Maps Location */}
                     <div className="col mb-5">
                         <div className="ratio ratio-4x3 rounded-4 overflow-hidden shadow card">
                             <iframe
@@ -18,6 +20,7 @@ const ContactDetails = () => {
                         </div>
                     </div>
 
+                    {/* Contact Details and Address */}
                     <div className="col d-flex flex-column justify-content-center align-items-start px-4">
                         <button
                             type="button"
@@ -37,7 +40,7 @@ const ContactDetails = () => {
                     </div>
                 </div>
 
-
+                {/* Contact Form */}
                 <div className="px-2">
                     <h4>Send A Message</h4>
                     <form className="d-flex flex-column">

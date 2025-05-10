@@ -18,6 +18,8 @@ const Gallery = () => {
         <div className="container">
           <h1 className="text-white text-center py-4">Photo Gallery</h1>
           <div>
+
+            {/* Swiper Display Pictures */}
             <Swiper
               style={{
                 '--swiper-navigation-color': '#fff',
@@ -54,6 +56,7 @@ const Gallery = () => {
 
             </Swiper>
 
+            {/* Swiper Thumbnail Pictures Below */}
             <Swiper
               onSwiper={setThumbsSwiper}
               // loop={true}

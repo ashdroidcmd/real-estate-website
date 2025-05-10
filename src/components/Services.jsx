@@ -7,6 +7,7 @@ const Services = () => {
                 <h1 className="text-center pt-4 text-light-brown">Our Services</h1>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-4 shadow-lg rounded-4">
 
+                    {/* Service 1 */}
                     <div className="col text-center p-4 my-2">
                         <img className="img-fluid mb-4 rounded-4" src="/real-estate-website/services1.webp" alt="Services Image" />
                         <h3 className="mb-4">Real Estate Done Right</h3>
@@ -14,6 +15,7 @@ const Services = () => {
                         </p>
                     </div>
 
+                    {/* Service 2 */}
                     <div className="col text-center p-4 my-2">
                         <img className="img-fluid mb-4 rounded-4" src="/real-estate-website/services2.webp" alt="Services Image" />
                         <h3 className="mb-4">Commercial & Residential</h3>
@@ -21,6 +23,7 @@ const Services = () => {
                         </p>
                     </div>
 
+                    {/* Service 3 */}
                     <div className="col text-center p-4 my-2">
                         <img className="img-fluid mb-4 rounded-4" src="/real-estate-website/services3.webp" alt="Services Image" />
                         <h3 className="mb-4">Rely on Expertise</h3>

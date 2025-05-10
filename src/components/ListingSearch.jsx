@@ -9,6 +9,8 @@ const ListingSearch = () => {
 
                     <div className="p-5 mb-5 bg-white rounded-4">
                         <h1 className="text-light-brown">Search Listings</h1>
+
+                        {/* 1st Row of Dropdowns */}
                         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-4">
                             <div className="col">
                                 <p className="fs-5 mb-0">Location</p>
@@ -68,6 +70,7 @@ const ListingSearch = () => {
                             </div>
                         </div>
 
+                        {/* 2nd Row of Dropdowns */}
                         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-2">
                             <div className="col">
                                 <div className="row">
