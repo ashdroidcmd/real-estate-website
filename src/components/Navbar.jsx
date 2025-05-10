@@ -6,7 +6,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg fixed-top bg-light" aria-label="Ninth navbar example">
                 <div className="container-xl">
 
-                    <a className="navbar-brand" href="#"><img src="./logo.webp" alt="Marci Metzger Homes Logo"/></a>
+                    <a className="navbar-brand" href="#"><img src={`${process.env.PUBLIC_URL}/logo.webp`} alt="Marci Metzger Homes Logo"/></a>
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span> </button>
                     

@@ -31,25 +31,25 @@ const Gallery = () => {
               className="mySwiper2 mb-4"
             >
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/1.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/1.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/2.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/2.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/3.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/3.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/4.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/4.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/5.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/5.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/6.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/6.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid rounded-3" src="./gallery/7.webp" alt="Gallery Images" />
+                <img className="img-fluid rounded-3" src={`${process.env.PUBLIC_URL}/gallery/7.webp`} alt="Gallery Images" />
               </SwiperSlide>
 
             </Swiper>
@@ -71,28 +71,28 @@ const Gallery = () => {
               freeMode={true}
               watchSlidesProgress={true}
               modules={[FreeMode, Navigation, Thumbs]}
-              className="mySwiper pb-4"
+              className="mySwiper pb-5"
             >
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/1.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/1.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/2.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/2.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/3.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/3.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/4.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/4.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/5.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/5.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/6.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/6.webp`} alt="Gallery Images" />
               </SwiperSlide>
               <SwiperSlide>
-                <img className="img-fluid" src="./gallery/7.webp" alt="Gallery Images" />
+                <img className="img-fluid" src={`${process.env.PUBLIC_URL}/gallery/7.webp`} alt="Gallery Images" />
               </SwiperSlide>
             </Swiper>
           </div>

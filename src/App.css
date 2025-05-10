@@ -6,15 +6,10 @@
 h1, a {
     font-family: "Cinzel", serif;
 }
-
-h4,
-p{
+h4, p {
     font-family: "Source Sans 3", sans-serif;
 }
-
-.text-light-brown {
-    color: #AD8C8C;
-}
+.text-light-brown {color: #AD8C8C;}
 
 /* Navbar */
 .navbar-brand img {
@@ -42,12 +37,10 @@ p{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
-
 #hero-section > * {
     position: relative;
     z-index: 2; 
 }
-
 
 /* Profile */
 #profile-image {

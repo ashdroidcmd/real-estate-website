@@ -12,7 +12,7 @@ const ListingSearch = () => {
                         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-4">
                             <div className="col">
                                 <p className="fs-5 mb-0">Location</p>
-                                <div className="dropdown  w-100">
+                                <div className="dropdown w-100">
                                     <button
                                         className="btn btn-outline-light dropdown-toggle text-black rounded-1 w-100 d-flex justify-content-between align-items-center"
                                         type="button"
@@ -73,7 +73,7 @@ const ListingSearch = () => {
                                 <div className="row">
                                     <div className="col">
                                     <p className="fs-5 mb-0">Bedrooms</p>
-                                        <div className="dropdown  w-100">
+                                        <div className="dropdown w-100">
                                             <button
                                                 className="btn btn-outline-light dropdown-toggle text-black rounded-1 w-100 d-flex justify-content-between align-items-center"
                                                 type="button"
@@ -91,7 +91,7 @@ const ListingSearch = () => {
                                     </div>
                                     <div className="col">
                                     <p className="fs-5 mb-0">Baths</p>
-                                        <div className="dropdown  w-100">
+                                        <div className="dropdown w-100">
                                             <button
                                                 className="btn btn-outline-light dropdown-toggle text-black rounded-1 w-100 d-flex justify-content-between align-items-center"
                                                 type="button"

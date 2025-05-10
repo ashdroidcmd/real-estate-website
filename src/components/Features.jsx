@@ -5,25 +5,25 @@ const Features = () => {
         <>
             <section className="container py-5">
 
-                <div className="container my-2 pb-5 border-bottom">
+                <div className="my-2 pb-5 border-bottom">
                     <div className="row row-cols-2 row-cols-md-4 g-3 justify-content-center">
                         <div className="col d-flex justify-content-center">
-                            <img className="brand-logo img-fluid" src="./logo2.webp" alt="Ridge Realty Group Logo" />
+                            <img className="brand-logo img-fluid" src="/real-estate-website/logo2.webp" alt="Ridge Realty Group Logo" />
                         </div>
                         <div className="col d-flex justify-content-center">
-                            <img className="brand-logo img-fluid" src="./logo3.webp" alt="Equal Housing Opportunity Logo" />
+                            <img className="brand-logo img-fluid" src="/real-estate-website/logo3.webp" alt="Equal Housing Opportunity Logo" />
                         </div>
                         <div className="col d-flex justify-content-center">
-                            <img className="brand-logo img-fluid" src="./logo4.webp" alt="Realtor Logo" />
+                            <img className="brand-logo img-fluid" src="/real-estate-website/logo4.webp" alt="Realtor Logo" />
                         </div>
                         <div className="col d-flex justify-content-center">
-                            <img className="brand-logo img-fluid" src="./logo5.webp" alt="Pahrump Valley Logo" />
+                            <img className="brand-logo img-fluid" src="/real-estate-website/logo5.webp" alt="Pahrump Valley Logo" />
                         </div>
                     </div>
                 </div>
                 <h1 className="text-center pt-4 text-light-brown">Get It Sold</h1>
 
-                <div className="container">
+                <div>
                     <div className="row">
                         <div className="row featurette my-5 align-items-center">
                             <div className="col-md-6 order-md-2 text-center">
@@ -34,7 +34,7 @@ const Features = () => {
                             </div>
 
                             <div className="col-md-6 order-md-1">
-                                <img className="img-fluid shadow-lg rounded-4" src="./features1.webp" alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features1.webp`} alt="" />
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ const Features = () => {
                                 </p>
                             </div>
                             <div className="col-md-6">
-                                <img className="img-fluid shadow-lg rounded-4" src="./features2.webp" alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features2.webp`} alt="" />
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@ const Features = () => {
                             </div>
 
                             <div className="col-md-6 order-md-1">
-                                <img className="img-fluid shadow-lg rounded-4" src="./features3.webp" alt="" />
+                                <img className="img-fluid shadow-lg rounded-4" src={`${process.env.PUBLIC_URL}/features3.webp`} alt="" />
                             </div>
                         </div>
                     </div>
