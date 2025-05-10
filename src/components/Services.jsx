@@ -5,7 +5,7 @@ const Services = () => {
         <>
             <section className="container py-5 border-bottom">
                 <h1 className="text-center pt-4 text-light-brown">Our Services</h1>
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-4 mx-2 shadow-lg rounded-4">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-4 shadow-lg rounded-4">
 
                     <div className="col text-center p-4 my-2">
                         <img className="img-fluid mb-4 rounded-4" src="/real-estate-website/services1.webp" alt="Services Image" />

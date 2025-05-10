@@ -25,7 +25,7 @@ const Features = () => {
 
                 <div>
                     <div className="row">
-                        <div className="row featurette my-5 align-items-center">
+                        <div className="featurette my-5 align-items-center">
                             <div className="col-md-6 order-md-2 text-center">
                                 <h4 className="mb-4">Top Residential Sales Last 5 Years</h4>
                                 <p>We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
@@ -38,7 +38,7 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <div className="row featurette mb-5 align-items-center">
+                        <div className="featurette mb-5 align-items-center">
                             <div className="col-md-6 text-center">
                                 <h4 className="mb-4">Don't Just List it...</h4>
                                 <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.
@@ -49,7 +49,7 @@ const Features = () => {
                             </div>
                         </div>
 
-                        <div className="row featurette mb-4 align-items-center mb-5">
+                        <div className="featurette mb-4 align-items-center mb-5">
                             <div className="col-md-6 order-md-2 text-center">
                                 <h4 className="mb-4">Guide to Buyers</h4>
                                 <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!
